@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
             case 1:
 
                 WifiConfiguration wf = new WifiConfiguration();
-                wf.SSID = "RohanAP";
+                wf.SSID = "InternetON";
 
                 wifiApManager.setWifiApEnabled(wf, true);
                 break;
